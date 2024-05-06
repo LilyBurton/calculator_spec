@@ -2,7 +2,7 @@ require "string_calculator"
 
 describe StringCalculator do
 
-    describe ".add" do
+    describe "#add" do
         context "given an empty string" do
           it "returns zero" do
             expect(StringCalculator.add("")).to eq(0)
@@ -10,7 +10,7 @@ describe StringCalculator do
         end
       end
 
-    describe ".add" do
+    describe "#add" do
         context "given '4'" do
           it "returns 4" do
             expect(StringCalculator.add("4")).to eql(4)
@@ -25,7 +25,7 @@ describe StringCalculator do
       end
     end
 
-    describe ".add" do
+    describe "#add" do
         context "two numbers" do
           context "given '2,4'" do
             it "returns 6" do
